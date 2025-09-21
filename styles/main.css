@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --azul-petroleo: #2E4A50;
-    --cinza-azulado: #8C9CA3;
+    --azul-petroleo: #3f636b;
+    --cinza-azulado: #aec2cb;
     --bege: #C2B49A;
-    --dourado-antigo: #c6a664;
+    --dourado-antigo: #a99263;
     --dourado-claro: #efc675;
     --branco-suave: #F5F5F2;
     --degrade-azul-petroleo: linear-gradient(135deg, #2E4A50, #4A3220);
@@ -35,9 +35,30 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    background-color: white;
+    overflow: hidden;
+
+    background-color: var(--cinza-azulado);
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px #182528dd;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: var(--azul-petroleo) url(../images/pexels-cottonbro-4753136.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left top;
+    height: 21.875em;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 0.625em;
+
+}
+
+div#formulario > h1 {
+    color: #4D280E;
 }
