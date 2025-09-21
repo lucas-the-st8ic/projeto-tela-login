@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+
+}
+
+:root {
+    --azul-petroleo: #2E4A50;
+    --cinza-azulado: #8C9CA3;
+    --bege: #C2B49A;
+    --dourado-antigo: #c6a664;
+    --dourado-claro: #efc675;
+    --branco-suave: #F5F5F2;
+    --degrade-azul-petroleo: linear-gradient(135deg, #2E4A50, #4A3220);
+}
