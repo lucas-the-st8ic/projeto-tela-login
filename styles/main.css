@@ -19,9 +19,9 @@
 
 body, html {
     background-color: var(--azul-petroleo);
-    height: 100vh;
     width: 100vw;
-
+    height: 100vh;
+    margin: 0;
 }
 
 main {
@@ -60,5 +60,5 @@ section#login > div#formulario {
 }
 
 div#formulario > h1 {
-    color: #4D280E;
+    color: #968003;
 }
