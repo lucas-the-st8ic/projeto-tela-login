@@ -38,8 +38,8 @@ section#login {
     overflow: hidden;
 
     background-color: var(--cinza-azulado);
-    width: 250px;
-    height: 500px;
+    width: 281px;
+    height: 612px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #182528dd;
 
@@ -58,10 +58,16 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 0.625em;
+    padding: 1em;
 
 }
 
 div#formulario > h1 {
-    color: #968003;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #825900;
+}
+
+div#formulario > p {
+    font-size: 0.625;
 }
