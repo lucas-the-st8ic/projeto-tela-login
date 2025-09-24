@@ -19,15 +19,15 @@
 
 body, html {
     background-color: var(--azul-petroleo);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 
 main {
     position: relative;
-    height: 98vh;
-    width: 98vw;
+    height: 98%;
+    width: 98%;
 }
 
 section#login {
@@ -39,7 +39,7 @@ section#login {
 
     background-color: var(--cinza-azulado);
     width: 281px;
-    height: 590px;
+    height: 595px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #182528dd;
 
@@ -70,4 +70,63 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.625;
+}
+
+form > div.campo {
+    background-color: var(--azul-petroleo);
+    display: block;
+    border-radius: 4px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: var(--dourado-antigo);
+    border-radius: 10px;
+    border: none;
+    color: var(--branco-suave);
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    font-size: 1.120em;
+    background-color: var(--dourado-claro);
+    border-radius: 18px;
+    border-style: outset;
+    color: black;
+}
+
+form > a.botão {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    padding-top: 3px;
+    margin-top: 5px;
+    background-color: var(--dourado-antigo);
+    border-radius: 10px;
+    border: none;
+    color: var(--branco-suave);
+    text-decoration: none;
+}
+
+form > a.botão:hover {
+    font-size: 1.02em;
+    background-color: var(--dourado-claro);
+    border-radius: 18px;
+    border-style: outset;
+    color: black;
+}
+
+form > a.botão > span {
+    font-size: 0.938em;
 }
